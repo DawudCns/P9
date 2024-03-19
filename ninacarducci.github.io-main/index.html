@@ -41,6 +41,7 @@
 			</ul>
 		  </nav>
 		</section>
+		<main>
 		<section id="header">
 			<figure
 			  id="carouselExampleIndicators"
@@ -206,88 +207,74 @@
 	  <section id="services">
 		<h3 class="title">Mes services</h3>
 		<div class="container">
-		  <div class="service">
-			<div class="service__description">
-			  <h3>Shooting photo</h3>
-			  <p>
-				Pour capturer vos moments les plus précieux et garder un souvenir
-				impérissable. Je me déplace en Île-de-France pour réaliser vos
-				photos
-			  </p>
+			<div class="service">
+				<div class="service__description">
+					<h3>Shooting photo</h3>
+					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
+						Île-de-France pour réaliser vos photos.</p>
+				</div>
+				<div class="service__price">
+					<h4>350€/demi-journée</h4>
+					<span>Matériel et déplacement inclus</span>
+				</div>
+
 			</div>
-			<div class="service__price">
-			  <h4>350€/demi journée</h4>
-			  <span>Matériel, déplacement inclus</span>
+			<div class="service">
+				<div class="service__description">
+					<h3>Retouches</h3>
+					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficiez d'un rendu optimal pour
+						vos publications.</p>
+				</div>
+				<div class="service__price">
+					<h4>50€/photo</h4>
+					<span>2 AR par photo</span>
+				</div>
 			</div>
-		  </div>
+			<div class="service">
+				<div class="service__description">
+					<h3>Album photos</h3>
+					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album
+						photo
+						personnalisé.</p>
+				</div>
+				<div class="service__price">
+					<h4>400€ album A4</h4>
+					<span>30 pages recto/verso</span>
+				</div>
+			</div>
 		</div>
-	  </section>
-	  <section class="service">
-		<div class="service__description">
-		  <h3>Retouches</h3>
-		  <p>
-			Vous souhaitez retoucher vos photos pour un résultat professionnel ?
-			Bénéficier d’un rendu optimal pour vos publications
-		  </p>
-		</div>
-		<div class="service__price">
-		  <h4>50€/photo</h4>
-		  <span>2 AR par photo</span>
-		</div>
-	  </section>
-	  <section class="service">
-		<div class="service__description">
-		  <h3>Album photos</h3>
-		  <p>
-			Partagez avec vos proches et vos clients les photos des moments
-			partagés ensemble à travers un album photo personnalisé
-		  </p>
-		</div>
-          <div class="service__price">
-            <h4>400€ album A4</h4>
-            <span>30 pages recto/verso</span>
-          </div>
-        </section>
-		<section class="quote">
-			<figure>
-			  <blockquote>
-				<p class="quote__text">
-				  De manière inconsciente, je crois, je guette un regard, une
-				  expression, des traits ou une nostalgie capable de résumer ou plus
-				  exactement de révéler une vie
-				</p>
-			  </blockquote>
-			  <figcaption class="quote__author">- Richard Avedon</figcaption>
-			</figure>
-		  </section>
-		  <footer>
-		  <section id="contact">
-			<div class="container">
-			  <div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
-				<p>
-				  N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures
-				</p>
-          <form action="" method="post">
-            <label>Nom</label>
-            <input type="text" name="nom" id="nom" />
-            <label>Email</label>
-            <input type="email" name="email" id="email" />
-            <label>Message</label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-            ></textarea>
-            <input type="submit" value="Envoyer" />
-          </form>
-        </div>
-        <div class="picture right">
-          <img src="./assets/images/camera.png" />
-        </div>
-      </div>
 	</section>
-	</footer>
+	<div class="quote">
+		<figure>
+			<blockquote>
+				<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou
+					une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
+			</blockquote>
+			<figcaption class="quote__author">- Richard Avedon</figcaption>
+		</figure>
+	</div>
+
+<section id="contact">
+	<div class="container">
+		<div class="form-container">
+			<h3>Une question ? Une demande de devis ?</h3>
+			<p>N'hésitez pas à m'écrire ! Je vous répondrai en moins de 24 heures.</p>
+			<form action="#" method="post">
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<input type="submit" value="Envoyer">
+			</form>
+
+		</div>
+		<div class="picture right">
+			<img src="./assets/images/camera.png" alt="Appareil photo professionnel" width="420" height="420">
+		</div>
+	</div>
+	</section>
+</main>
   </body>
 </html>
